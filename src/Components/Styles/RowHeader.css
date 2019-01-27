@@ -1,0 +1,66 @@
+#row-header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: teal;
+}
+
+#plus-button{
+    display: flex;
+    width: 100px;
+    background: lightslategrey;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    justify-content: center;
+    padding-right:10px; 
+}
+
+#screens{
+    display: flex;
+    width: calc(100% - 100px);
+    overflow: scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.display-screen{
+    width: 110px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 80px;
+    color: brown; 
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    background-color: coral;
+    border: 1px solid white;
+    flex-wrap: wrap;
+
+}
+
+.screen-id-div{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px; 
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+}
+
+.close-button-div{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+
+.process-type{
+    margin-left: 10px;
+}
+
+.close-button{
+    margin-right: 10px;
+}
